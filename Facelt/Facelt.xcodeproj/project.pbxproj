@@ -59,10 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				198B053320184EC1008D3495 /* FaceViewController.swift */,
-				198B053520184EC1008D3495 /* Main.storyboard */,
-				198B054520185180008D3495 /* FaceView.swift */,
-				198B054420184F0D008D3495 /* Supporting FIles */,
 				19A11C822019BB4C00A119E2 /* FacialExpresion.swift */,
+				198B054520185180008D3495 /* FaceView.swift */,
+				198B053520184EC1008D3495 /* Main.storyboard */,
+				198B054420184F0D008D3495 /* Supporting FIles */,
 			);
 			path = Facelt;
 			sourceTree = "<group>";
@@ -227,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -278,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -291,7 +291,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DY9CG35JK;
 				INFOPLIST_FILE = Facelt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hansung.www.inorv.Facelt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -305,7 +307,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DY9CG35JK;
 				INFOPLIST_FILE = Facelt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hansung.www.inorv.Facelt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
