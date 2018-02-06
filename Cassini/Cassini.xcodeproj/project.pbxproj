@@ -13,6 +13,7 @@
 		19051EE120255537006122A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19051EDF20255537006122A9 /* LaunchScreen.storyboard */; };
 		19051EEA20255BF9006122A9 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19051EE920255BF9006122A9 /* ImageViewController.swift */; };
 		19051EEC20255C2C006122A9 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19051EEB20255C2C006122A9 /* DemoURL.swift */; };
+		19051EEE2029B68E006122A9 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19051EED2029B68E006122A9 /* CassiniViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		19051EE220255537006122A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19051EE920255BF9006122A9 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		19051EEB20255C2C006122A9 /* DemoURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
+		19051EED2029B68E006122A9 /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				19051EDA20255537006122A9 /* Main.storyboard */,
+				19051EED2029B68E006122A9 /* CassiniViewController.swift */,
 				19051EE920255BF9006122A9 /* ImageViewController.swift */,
 				19051EE220255537006122A9 /* Info.plist */,
 				19051EE820255563006122A9 /* Supporting FIles */,
@@ -150,6 +153,7 @@
 				19051EEA20255BF9006122A9 /* ImageViewController.swift in Sources */,
 				19051ED720255537006122A9 /* AppDelegate.swift in Sources */,
 				19051EEC20255C2C006122A9 /* DemoURL.swift in Sources */,
+				19051EEE2029B68E006122A9 /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9DY9CG35JK;
 				INFOPLIST_FILE = Cassini/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hansung.www.inorv.Cassini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9DY9CG35JK;
 				INFOPLIST_FILE = Cassini/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hansung.www.inorv.Cassini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
